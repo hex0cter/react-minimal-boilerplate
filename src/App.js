@@ -8,6 +8,7 @@ export default class App extends React.Component {
     return (
       <HashRouter>
         <div>
+        <Route path='//' component={Home} />
         <Route path='/home' component={Home} />
         <Route path='/about' component={About} />
         </div>
